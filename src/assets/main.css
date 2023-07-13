@@ -12,10 +12,12 @@
 
 #app {
   position: absolute;
-  width: 100%;
   margin: 0;
   padding: 2rem;
   font-weight: normal;
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow: hidden;
 }
 
 a,
@@ -23,10 +25,6 @@ a,
   text-decoration: none;
   color: var(--foreground);
   transition: 0.4s;
-}
-
-.picture {
-  border-radius: 50%;
 }
 
 header {
